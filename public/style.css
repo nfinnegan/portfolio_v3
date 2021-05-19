@@ -4,7 +4,7 @@ body {
 }
 
 header {
-  background-color: #778da9;
+  background-color: black;
   padding-bottom: 25px;
 }
 .wrapper {
@@ -32,23 +32,58 @@ header {
 }
 
 /* RESUME BUTTON FORMATTING IN HEADER */
-.resumeBtn {
+.site-headerUL {
   float: right;
   position: relative;
   top: 55px;
   right: 15px;
-  background-color: #1b263b;
+  display: inline-flex;
 }
 
-.resumeLink {
+.nav-li,
+.skillsList {
+  list-style: none;
+}
+
+.skillsList {
+  display: -webkit-box;
+  position: relative;
+  right: 55px;
+}
+
+.skillsItem {
+}
+
+.jsImg,
+.bootImg {
+  width: 50%;
+  margin-top: 10px;
+}
+
+.nav-a {
+  color: white;
+  padding: 10px;
+}
+
+.nav-li:hover {
+  font-size: large;
+}
+
+.nav-a:hover {
+  font-weight: bold;
+  color: indianred;
+}
+
+/* .resumeLink {
   text-decoration: none;
   color: white;
-}
+} */
 
 /* STYLING THE CONTACT ME ICONS TWITTER,LINKED,GITHUB, ETC */
 .icons {
-  background-color: #415a77;
+  background-color: #e0e1dd;
   border-color: white;
+  color: black;
 }
 
 .nav {
@@ -58,13 +93,25 @@ header {
 }
 /* ABOUT ME SECTION STYLING/FORMATTING */
 .aboutMeHeader {
-  background-color: #415a77;
-  color: white;
+  font-size: 36pt;
 }
 
-.aboutMe {
+.aboutMe,
+.skills {
   font-family: "Source Sans Pro", sans-serif;
   margin-top: 40px;
+}
+
+.skills {
+  text-align: center;
+  font-size: 45pt;
+  margin-top: 100px;
+}
+
+.skill-img {
+  max-width: 50%;
+  height: auto;
+  padding-top: 60px;
 }
 
 .btn {
@@ -79,7 +126,7 @@ header {
 }
 /* styling on the actual buttons  */
 .btnColor {
-  background-color: #1b263b;
+  background-color: #404040;
 }
 
 button:hover,
@@ -118,15 +165,29 @@ a:hover {
 }
 
 .navbar {
-  background-color: #778da9;
+  background-color: black;
 }
 
-@media (max-width: 767.98px) {
-  .resumeBtn {
-    /* margin-top: 30px; */
+/* @media (min-width: 375px) {
+  .skillsList {
+    display: block;
+    width: 55%;
+    position: relative;
+    left: 55px;
+  }
+} */
+
+@media (max-width: 768px) {
+  .site-headerUL {
     float: none;
     position: absolute;
+    display: block;
+    top: 15px;
   }
+  .nav-li {
+    padding: 5px;
+  }
+
   .personalImage {
     position: relative;
     top: 15px;
@@ -134,6 +195,12 @@ a:hover {
 
   .inline {
     padding-bottom: 15px;
+    margin-left: 27px;
+  }
+
+  .skillsList {
+    position: relative;
+    left: 5px;
   }
 
   .latestProjCard {
@@ -145,5 +212,14 @@ a:hover {
   .btnFormatting {
     display: flex;
     justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 375px) {
+  .skillsList {
+    display: block;
+    width: 55%;
+    position: relative;
+    left: 55px;
   }
 }
