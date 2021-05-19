@@ -1,0 +1,149 @@
+body {
+  margin-bottom: 100px;
+  background-color: #e0e1dd;
+}
+
+header {
+  background-color: #778da9;
+  padding-bottom: 25px;
+}
+.wrapper {
+  padding: 1rem;
+}
+/* PHOTO WRAPPED WITH NAME & JOB TO FORMAT */
+.nameJob {
+  padding-left: 30px;
+}
+/* NAME & JOB TITLE IN HEADER WRAPPED, SO I CAN FORMAT TOGETHER */
+.inline {
+  display: inline-block;
+  position: relative;
+  top: 35px;
+  left: 15px;
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+
+/* MAKING MY PERSONAL PHOTO AN AVATAR */
+.personalImage {
+  border-radius: 75px;
+  height: 150px;
+  width: 150px;
+}
+
+/* RESUME BUTTON FORMATTING IN HEADER */
+.resumeBtn {
+  float: right;
+  position: relative;
+  top: 55px;
+  right: 15px;
+  background-color: #1b263b;
+}
+
+.resumeLink {
+  text-decoration: none;
+  color: white;
+}
+
+/* STYLING THE CONTACT ME ICONS TWITTER,LINKED,GITHUB, ETC */
+.icons {
+  background-color: #415a77;
+  border-color: white;
+}
+
+.nav {
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  bottom: 100px;
+}
+/* ABOUT ME SECTION STYLING/FORMATTING */
+.aboutMeHeader {
+  background-color: #415a77;
+  color: white;
+}
+
+.aboutMe {
+  font-family: "Source Sans Pro", sans-serif;
+  margin-top: 40px;
+}
+
+.btn {
+  border-radius: 50px;
+  margin: 0px 15px;
+}
+
+/* styling github repo and live application a tags to now show up as typical links */
+.appBtns {
+  color: white;
+  text-decoration: none;
+}
+/* styling on the actual buttons  */
+.btnColor {
+  background-color: #1b263b;
+}
+
+button:hover,
+a:hover {
+  color: white;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.featuredProj {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 25px;
+  justify-content: space-evenly;
+}
+
+.projectCards {
+  margin-top: 25px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+/* styling all cards with a border */
+.mb-3 {
+  border-style: solid;
+  border-color: #1b263b;
+  border-width: 2px;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 5px 5px #0d1b2a;
+}
+.weatherImage {
+  width: 300px;
+  height: 200px;
+}
+
+.navbar {
+  background-color: #778da9;
+}
+
+@media (max-width: 767.98px) {
+  .resumeBtn {
+    /* margin-top: 30px; */
+    float: none;
+    position: absolute;
+  }
+  .personalImage {
+    position: relative;
+    top: 15px;
+  }
+
+  .inline {
+    padding-bottom: 15px;
+  }
+
+  .latestProjCard {
+    margin-top: 20px;
+  }
+  .display-4 {
+    font-size: 2.5rem;
+  }
+  .btnFormatting {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
