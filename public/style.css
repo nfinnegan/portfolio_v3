@@ -51,9 +51,6 @@ header {
   right: 55px;
 }
 
-.skillsItem {
-}
-
 .jsImg,
 .bootImg {
   width: 50%;
@@ -73,11 +70,6 @@ header {
   font-weight: bold;
   color: indianred;
 }
-
-/* .resumeLink {
-  text-decoration: none;
-  color: white;
-} */
 
 /* STYLING THE CONTACT ME ICONS TWITTER,LINKED,GITHUB, ETC */
 .icons {
@@ -163,6 +155,21 @@ a:hover {
   color: white;
   opacity: 0.5;
   cursor: pointer;
+}
+
+#nannyNowPic {
+  width: 700px;
+
+  height: auto;
+  margin-top: 75px;
+}
+
+.projTitle {
+  color: #e26d5c;
+}
+.nannyNowInfo {
+  font-family: "Source Sans Pro", sans-serif;
+  margin-top: 75px;
 }
 
 .featuredProj {
