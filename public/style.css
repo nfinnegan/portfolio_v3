@@ -138,8 +138,10 @@ header {
   margin-top: 8px;
 }
 
-.createItem {
-  margin: 15px;
+.listIcons2 {
+  width: 50px;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 .btn {
   border-radius: 50px;
@@ -230,17 +232,9 @@ a:hover {
     left: 5px;
   }
 
-  /* .toolCard {
-    margin-bottom: 20px;
-    position: relative;
-    right: 38px;
-    padding: 0;
-  } */
-
   .toolsCards {
     margin-top: 40px;
-    position: relative;
-    left: 30px;
+
     font-family: "Source Sans Pro", sans-serif;
   }
 
@@ -266,11 +260,28 @@ a:hover {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .skillsList {
     display: block;
     width: 55%;
     position: relative;
     left: 55px;
+  }
+
+  .toolHeader {
+    font-size: 14pt;
+    font-weight: bold;
+  }
+  .toolsCards {
+    margin-top: 40px;
+    position: relative;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+}
+
+@media (max-width: 1024px) {
+  .toolHeader {
+    font-size: 14pt;
+    font-weight: bold;
   }
 }
