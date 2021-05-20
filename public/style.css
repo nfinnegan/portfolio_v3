@@ -108,8 +108,6 @@ header {
 
 .toolsCards {
   margin-top: 40px;
-  position: relative;
-  left: 55px;
   font-family: "Source Sans Pro", sans-serif;
 }
 
@@ -239,19 +237,17 @@ a:hover {
     left: 5px;
   }
 
-  .toolsCards {
+  /* .toolsCards {
     margin-top: 40px;
-
-    font-family: "Source Sans Pro", sans-serif;
-  }
+  } */
 
   .toolHeader {
     font-size: 14pt;
     font-weight: bold;
   }
   .toolCol {
-    height: 200px;
-    width: 300px;
+    /* height: 200px;
+    width: 300px; */
     margin-bottom: 20px;
   }
 
@@ -279,11 +275,11 @@ a:hover {
     font-size: 14pt;
     font-weight: bold;
   }
-  .toolsCards {
+  /* .toolsCards {
     margin-top: 40px;
     position: relative;
     font-family: "Source Sans Pro", sans-serif;
-  }
+  } */
 }
 
 @media (max-width: 1024px) {
