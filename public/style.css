@@ -114,6 +114,33 @@ header {
   padding-top: 60px;
 }
 
+.toolsCards {
+  margin-top: 40px;
+  position: relative;
+  left: 55px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.toolHeader {
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+.createList {
+  list-style: none;
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+
+.miroIcon,
+.gitHubIcon {
+  width: 50px;
+  margin-top: 8px;
+}
+
+.createItem {
+  margin: 15px;
+}
 .btn {
   border-radius: 50px;
   margin: 0px 15px;
@@ -201,6 +228,30 @@ a:hover {
   .skillsList {
     position: relative;
     left: 5px;
+  }
+
+  /* .toolCard {
+    margin-bottom: 20px;
+    position: relative;
+    right: 38px;
+    padding: 0;
+  } */
+
+  .toolsCards {
+    margin-top: 40px;
+    position: relative;
+    left: 30px;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+
+  .toolHeader {
+    font-size: 14pt;
+    font-weight: bold;
+  }
+  .toolCol {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 20px;
   }
 
   .latestProjCard {
