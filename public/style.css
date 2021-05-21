@@ -79,7 +79,11 @@ header {
 }
 
 .icons:hover {
-  transform: scale(1.5);
+  transform: scale(1.25);
+}
+
+.projPix:hover {
+  transform: scale(1.1);
 }
 
 .nav {
@@ -161,7 +165,8 @@ a:hover {
 
 #nannyNowPic,
 #fridgeFoodiePic,
-#techBlogPic {
+#techBlogPic,
+#teamGenPic {
   width: 700px;
   height: auto;
   margin-top: 75px;
@@ -172,7 +177,8 @@ a:hover {
 }
 .nannyNowInfo,
 .foodieInfo,
-.techBlogInfo {
+.techBlogInfo,
+.teamGenInfo {
   font-family: "Source Sans Pro", sans-serif;
   margin-top: 75px;
 }
@@ -184,6 +190,11 @@ a:hover {
   background-color: black;
   font-size: 16pt;
   font-weight: bold;
+}
+
+.projPix {
+  border-radius: 5px;
+  box-shadow: 0px 0px 23px 3px rgb(0 0 0 / 20%);
 }
 
 .projLinks {
