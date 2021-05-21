@@ -50,10 +50,20 @@
               target="_blank"
               alt="Natalie Finnegan Resume"
             >.resume( )</a></li>
-          <li class="nav-li"><a class="nav-a" href="/projects">.seeMyWork( )</a></li>
-          <li class="nav-li"><a class="nav-a" href="#skills">.skills( )</a></li>
-          {{! need to fix tools directing to right part of page }}
-          <li class="nav-li"><a class="nav-a" href="#{tools}">.tools( )</a></li>
+          <li class="nav-li"><a
+              id="prjPage"
+              class="nav-a"
+              href="/projects"
+            >.seeMyWork( )</a></li>
+          {{! <li class="nav-li" id="navSkills"><a
+                class="nav-a"
+                href="#skills"
+              >.skills( )</a></li>
+            <li class="nav-li" id="navTools"><a
+                class="nav-a"
+                href="#{tools}"
+              >.tools( )</a></li> }}
+
         </ul>
       </div>
     </header>
@@ -106,4 +116,6 @@
       crossorigin="anonymous"
     ></script>
   </body>
+
+  {{! <script src="/js/project.js"></script> }}
 </html>

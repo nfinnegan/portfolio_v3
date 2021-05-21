@@ -160,7 +160,8 @@ a:hover {
 }
 
 #nannyNowPic,
-#fridgeFoodiePic {
+#fridgeFoodiePic,
+#techBlogPic {
   width: 700px;
   height: auto;
   margin-top: 75px;
@@ -170,7 +171,8 @@ a:hover {
   color: #e26d5c;
 }
 .nannyNowInfo,
-.foodieInfo {
+.foodieInfo,
+.techBlogInfo {
   font-family: "Source Sans Pro", sans-serif;
   margin-top: 75px;
 }
@@ -185,7 +187,6 @@ a:hover {
 }
 
 .projLinks {
- 
   color: #e26d5c;
 }
 /* styling all cards with a border */
@@ -275,6 +276,11 @@ a:hover {
     width: 55%;
     position: relative;
     left: 55px;
+  }
+
+  .skillsItem {
+    width: 150px;
+    height: 150px;
   }
 
   .toolHeader {
