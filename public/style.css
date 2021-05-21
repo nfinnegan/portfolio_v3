@@ -78,6 +78,10 @@ header {
   color: black;
 }
 
+.icons:hover {
+  transform: scale(1.5);
+}
+
 .nav {
   font-family: "Montserrat", sans-serif;
   position: relative;
