@@ -159,9 +159,9 @@ a:hover {
   cursor: pointer;
 }
 
-#nannyNowPic {
+#nannyNowPic,
+#fridgeFoodiePic {
   width: 700px;
-
   height: auto;
   margin-top: 75px;
 }
@@ -169,23 +169,25 @@ a:hover {
 .projTitle {
   color: #e26d5c;
 }
-.nannyNowInfo {
+.nannyNowInfo,
+.foodieInfo {
   font-family: "Source Sans Pro", sans-serif;
   margin-top: 75px;
 }
 
-.featuredProj {
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-bottom: 25px;
-  justify-content: space-evenly;
-}
-
-.projectCards {
-  margin-top: 25px;
+.projBtns {
+  border-radius: 15px;
+  margin: 5px;
   font-family: "Source Sans Pro", sans-serif;
+  background-color: black;
+  font-size: 16pt;
+  font-weight: bold;
 }
 
+.projLinks {
+ 
+  color: #e26d5c;
+}
 /* styling all cards with a border */
 .mb-3 {
   border-style: solid;
