@@ -16,7 +16,11 @@ With being 2/3 complete with the Northwestern's full stack development program, 
 
 ## Preview
 
+![Portfolio_Preview](assets/previewPort.gif);
+
 ## Deployed Application
+
+- https://nataliefinnegan.herokuapp.com/
 
 ## License
 
