@@ -200,6 +200,10 @@ a:hover {
 .projLinks {
   color: #e26d5c;
 }
+
+.ulWrapper {
+  display: flex;
+}
 /* styling all cards with a border */
 .mb-3 {
   border-style: solid;
